@@ -1,0 +1,325 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url('man\ on.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Add transparency to navbar background */
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.quote-btn a {
+    background-color: #007BFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+.header-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.header-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin: 10 auto;
+}
+
+.cta-button {
+    background-color: #007BFF;
+    padding: 12px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+body{
+    background-color:azure;
+}
+.foot{
+    /* background-color: aliceblue; */
+    color: rgb(8, 137, 250);
+    padding: 620px 500px;
+    text-decoration: none;
+    /* color: white; */
+    align-content: center;
+}
+.best-btn a{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1px 2px;
+    text-decoration: none;
+    color: rgb(209, 201, 201);
+    border-radius: 2pt;
+    width: 60px;
+}
+.abt{
+    align-content: center;
+    padding: 50px 70px;
+    color: #180b0b;
+    font-size: 10vb;
+    justify-content: space-between;
+    margin: 20px;
+}
+.abtt{
+    color: blue;
+    font-style: italic;
+    font-size: 10vb;
+    justify-content: space-between;
+}
+.suit{
+    margin: 10px;
+src: url(on\ suit.jpeg);
+size: 100vb;
+}
+.write{
+    font-size: large;
+    justify-content: space-between;
+}
+.VISION{
+    background-color: #001aff;
+    padding: 0px 0px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    box-sizing: content-box;
+    margin: 20px;
+    
+}
+
+.btn-outline-primary{
+    background-color: #001aff;
+    box-sizing: 200px;
+    color: azure;
+    border-radius: 7dvh;
+
+}
+.vii{
+    background-color: #001aff;
+    padding: 12px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.VOT{
+    background-color: #ffffff;
+    padding: 12px 30px;
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+    border-radius: 5px;
+    font-size: 18px;
+}
+.CI{
+    background-color: #ffffff;
+    padding: 12px 30px;
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+    border-radius: 5px;
+    font-size: 18px;
+}
+.CO{
+    background-color: #ffffff;
+    padding: 0px 0px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    box-sizing: content-box;
+    margin: 20px;
+    
+}
+.many{
+    align-content: center;
+    padding: 0px 70px;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: large;
+    justify-content: space-between;
+}
+/* General styling for the service cards */
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service-card {
+    /* background-color: #fff; */
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    padding: 50 50px;
+    width: 200px;
+    text-align: center;
+    position: relative; 
+    transition: transform 0.1s ease; /* Smooth transition for hover effect */
+    cursor: pointer;
+    align-content: center;
+    padding: 10px 10px;
+    color: #180b0b;
+    /* font-size: 10vb; */
+    justify-content: space-between;
+    /* margin: 50px; */
+}
+
+.service-card:hover {
+    transform: translateY(-100px); /* Adds a lift effect on hover */
+}
+
+.service-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Styling for the active card with the blue line */
+.service-card.active::after {
+    content: '';
+    display: inline-block;
+    width: 15%;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    bottom: 90px;
+    left: 270%;
+    border-radius: 2px; /* Makes the line edges rounded */
+}
+.services-header {
+    text-align: center; 
+    padding-top: 20px;  
+    padding-bottom: 20px; 
+    cursor: pointer;
+    
+}
+
+.services-header h2 {
+    margin: 0 auto; /* Center the heading block */
+    display: inline-block; /* Ensure it's treated as a block element for margin centering */
+    
+    
+}
+.inter-header{
+    text-align: center; 
+    padding-top: 20px;  
+    padding-bottom: 20px; 
+    cursor: pointer;
+    color: aliceblue;
+    background-color: #07058d;
+}
+.inter-card{
+
+    border-radius: 5px;
+    padding: 50 50px;
+    width: 200px;
+    text-align: center;
+    position: relative; 
+    transition:0.1s ease;
+    cursor: pointer;
+    align-content: center;
+    padding: 10px 10px;
+    color: #180b0b;
+    justify-content: space-between;
+    /* margin: 50px; */
+}
+.inter-card:hover {
+    /* transform: translateY(-100px); Adds a lift effect on hover */
+}
+.inter-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.inter-card p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+
+.inter-card.active::after {
+    content: '';
+    display: inline-block;
+    width: 20%;
+    height: 3px;
+    background-color: rgb(244, 244, 252);
+    position: absolute;
+    bottom: 480px;
+    left: 260%;
+    border-radius: 2px; 
+}
+.it{
+    text-align: center;
+    position: relative;
+}
+.c{
+    width: 50vb;
+
+}
+img.obi{
+    width: 200px;
+    aspect-ratio: auto 1600 /1200;
+    height: 360px;
+    overflow-clip-margin: content-box;
+    float: right;
+    margin: 30px;
+
+}
+h5{
+    font-size: 5vb;
+}
+.kai{
+    color: #001aff;
+    font-size: 10vb;
+}
