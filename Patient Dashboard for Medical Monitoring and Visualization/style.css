@@ -1,0 +1,136 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px; 
+  height: 100vh; 
+  background-color: #ffffff; 
+  border-right: 1px solid #ddd; 
+  padding: 20px;
+  overflow-y: auto; 
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
+  z-index: 1000;
+}
+
+.sidebar .patient-profile {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar .patient-profile img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.sidebar .patient-profile h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.sidebar .patient-info .info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.sidebar .patient-info .info-item img {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+/* Main Content Styling */
+.main-content {
+  margin-left: 220px; 
+  padding: 30px;
+  background-color: #f9f9f9; 
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.main-content h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main-content section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.main-content .stats {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat-item {
+  background-color: #f0f9ff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.main-content .stats .stat-item img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.main-content .stats .stat-item h5 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.main-content .stats .stat-item p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Buttons */
+.show-info-btn {
+  background-color: #00d1a0;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
